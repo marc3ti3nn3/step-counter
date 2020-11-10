@@ -5,7 +5,7 @@ input.onButtonPressed(Button.AB, function () {
         basic.clearScreen()
     }
 })
-input.onGesture(Gesture.ThreeG, function () {
+input.onGesture(Gesture.Shake, function () {
     pas += 1
     led.stopAnimation()
 })
